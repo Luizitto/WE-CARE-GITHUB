@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+.embrulho {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+header {
+    margin: 44px 0px 144px 23px;
+}
+
+.section-img {
+    display: inline-block;
+}
+
+.section-texto {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+.link-header {
+    margin-left: 23px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #989D9C;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    opacity: 0.4;
+    color: #989D9C;
+}
+
+.link-header:active {
+    opacity: 0.2;
+    color: #989D9C;
+}
+
+.button-header {
+    margin-left: 30px;
+    width: 130px;
+    height: 40px;
+    background: #665AE1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.5;
+}
+
+
+img {
+    margin-left: 125px;
+    width: 570px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #515151;
+    width: 513px;
+}
+
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    color: #515151;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #848484;
+    width: 515px;
+    margin: 32px 0 65px 0;
+}
+
+.button-main {
+    width: 239px;
+    height:64px;
+    border: none;
+    border-radius: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    background: #ADFF00;
+    cursor: pointer;
+}
+
+.button-main:hover{
+    opacity:0.8;
+}
+
+.button-main:active{
+    opacity:0.5;
+}
+
+@media screen and (max-width:500px){
+
+
+    header {
+       display: none;
+    }
+
+    img {
+        margin: 149px 22px 0px 14px;
+        width: 354px;
+        height: 317px;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        color: #515151;
+        width: 263px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        width: 232px;
+        color: #515151;
+        text-align: center;
+    }
+    p {
+       display: none;
+    }
+
+    .button-main {
+        width: 239px;
+        height:64px;
+        border: none;
+        border-radius: 50px;
+        font-size: 28px;
+        font-weight: 700;
+        color: black;
+        background: #ADFF00;
+        cursor: pointer;
+        margin: 32px 0px 80px 0px;
+    }
+
+}
